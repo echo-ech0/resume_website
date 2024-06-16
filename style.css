@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container {
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+header {
+  padding: 12px 20px;
+}
+
+header > h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  letter-spacing: 0.4em;
+  text-align: center;
+  margin: 12px;
+}
+
+header > p {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.left-section {
+  width: 50%;
+  border-right: 1px solid gray;
+  margin: 12px 0px;
+  padding: 20px 40px;
+}
+
+.right-section {
+  width: 50%;
+  margin: 12px 0px;
+  padding: 20px 40px;
+  text-align: left;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.container h3 {
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact > div {
+  word-wrap: break-word;
+  margin: 2px 0;
+  font-size: 0.9em;
+  font-family: "Open-sans", sans-serif;
+}
+
+.contact > div > i {
+  margin: 0 5px;
+}
+.contact > div > a {
+  text-decoration: none;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 20px 0;
+  gap: 0.5em;
+}
+
+.skills > p {
+  font-size: 0.9em;
+  font-family: "Open-sans", sans-serif;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 20px 0;
+  gap: 1em;
+}
+
+.edu-card {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.edu-card h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.edu-card p {
+  font-family: "Open-sans", sans-serif;
+  font-size: 0.9em;
+}
+
+.edu-card > div:nth-child(odd) {
+  width: 80%;
+}
+
+.edu-card > div:nth-child(even) {
+  width: 30%;
+  font-family: "Open-sans", sans-serif;
+  font-size: 0.8em;
+  margin: 8px;
+}
+
+.about {
+  margin: 20px 0;
+  width: 100%;
+}
+
+.about > p {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9em;
+  width: 90%;
+
+}
+
+.projects{
+  width: 100%;
+}
+
+.project-card {
+  margin: 20px 0;
+  width: 95%;
+}
+
+.project-card > h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.project-card > ul {
+  margin: 10px 0;
+  padding-left: 20px;
+  font-family: "Open-sans", sans-serif;
+  font-size: 0.95em;
+}
+.project-card > ul > li {
+  padding: 2px 0;
+  word-wrap: break-word;
+}
+.project-card > ul > li > a {
+  text-decoration: none;
+}
